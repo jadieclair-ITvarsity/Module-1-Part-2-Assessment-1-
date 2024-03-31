@@ -109,7 +109,7 @@ a.info-box {
   align-items: center;
   width: 90%;
   color: #572800;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .ingo-box p {
@@ -121,4 +121,23 @@ a.info-box {
   float: right;
   margin-top: 25px;
   height: 40px;
+}
+
+/* Style for elephants page */
+
+.info-box-full {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  display: block;
+  margin: 12px auto auto auto;
+  padding: 12px;
+}
+
+.info-box-full img {
+  width: 100%;
+}
+
+.info-box-full h3 {
+  text-align: center;
+  padding: 12px;
 }
