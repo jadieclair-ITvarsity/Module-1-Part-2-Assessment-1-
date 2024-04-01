@@ -65,6 +65,11 @@ body {
   margin-top: 120px;
 }
 
+li {
+  list-style-type: square;
+  margin: 25px 20px;
+}
+
 /* Style for footer */
 
 .bottom-tabs {
@@ -123,7 +128,7 @@ a.info-box {
   height: 40px;
 }
 
-/* Style for elephants page */
+/* Style for Animals page */
 
 .info-box-full {
   background-color: rgba(255, 255, 255, 0.8);
