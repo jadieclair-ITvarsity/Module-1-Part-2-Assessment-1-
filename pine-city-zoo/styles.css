@@ -59,15 +59,21 @@ body {
   padding: 12px;
 }
 
+.top-tabs :hover,
+.bottom-tabs a:hover {
+  color: #72b854;
+}
+
 /* Style for main */
 
 .main-home {
   margin-top: 120px;
 }
 
-li {
-  list-style-type: square;
-  margin: 25px 20px;
+ul > li {
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
 }
 
 /* Style for footer */
@@ -108,18 +114,21 @@ a.info-box {
   height: 70px;
   margin: 10px;
   float: left;
+  border-radius: 20px;
 }
 
 .info-box h3 {
   align-items: center;
+  text-decoration: underline;
   width: 90%;
   color: #572800;
-  margin-top: 20px;
+  margin: 20px 0 8px 0;
 }
 
-.ingo-box p {
+.info-box p {
   width: 90%;
   color: #131313;
+  font-weight: 500;
 }
 
 .info-box img.right {
@@ -135,16 +144,26 @@ a.info-box {
   width: 90%;
   display: block;
   margin: 12px auto auto auto;
-  padding: 12px;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 .info-box-full img {
   width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .info-box-full h3 {
   text-align: center;
   padding: 12px;
+  font-family: "Roboto Mono", monospace;
+  margin-top: 10px;
+}
+
+.info-box-full p {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 /* Style for Weather page */
@@ -154,11 +173,19 @@ img.info-box-weather-icon {
   width: 30px !important;
   margin: 10px;
   float: left;
+  background-color: #f37b01;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 h1.info-box-weather-icon {
   font-size: 65px;
   font-weight: 200;
+}
+
+.weather-daily-forecast {
+  display: flex;
+
+  margin: 0 auto;
 }
 
 table {
