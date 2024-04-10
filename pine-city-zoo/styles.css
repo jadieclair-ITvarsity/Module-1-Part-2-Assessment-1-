@@ -230,3 +230,22 @@ textarea {
   margin: 12px 0;
   padding: 8px 0;
 }
+
+/* Feed back page */
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+::placeholder {
+  padding-left: 5px;
+}
